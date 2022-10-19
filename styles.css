@@ -1,0 +1,75 @@
+/* IMAGES */
+
+
+
+
+
+/* BASE STYLES
+---------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    color: #eaeaea;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+
+/* TYPOGRAPHY
+---------------------------------------------- */
+h1 {
+    display: block;
+    background-color: none;
+    color: darkgoldenrod;
+    font-size: 7em;
+    margin: auto; 
+    font-family: 'Titan One', cursive;
+}
+
+figcaption {
+    padding-bottom: 15px;
+    font-variant-caps: all-small-caps;
+    color: darkgrey;
+}
+
+
+
+/* GRID 
+---------------------------------------------- */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    padding: 16px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER
+---------------------------------------------- */
+.banner {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(links/yellowgrid.jpg);
+    background-position: center;
+    display:grid;
+    align-items: baseline;
+    justify-items: center;
+}
